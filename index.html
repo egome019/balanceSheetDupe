@@ -13,8 +13,8 @@
 			<h1>Balance Sheet</h1>
 			<div id="years" aria-hidden="true">
 				<h2>Assets</h2>
-				<p>This Year</p>
-				<p>Last Year</p>
+				<span class="year">This Year</span>
+				<span class="year">Last Year</span>
 			</div>
 			<table>
 				<caption>
@@ -23,30 +23,31 @@
 				<thead>
 					<tr>
 						<td></td>
-						<th>This Year</th>
-						<th>Last Year</th>
+						<th class="current"><span class="sr-only year">This Year</span></th>
+						<th><span class="sr-only year">Last Year</span></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
+						<!-- the below is the description and the head of the row -->
 						<th>Cash and cash equivalents</th>
-						<td>$ 10,000</td>
+						<td class="current">$ 10,000</td>
 						<td>$ 10,000</td>
 					</tr>
 					<tr>
 						<th>Accounts receivable</th>
-						<td>35,000</td>
+						<td class="current">35,000</td>
 						<td>30,000</td>
 					</tr>
 					<tr>
 						<th>Inventory</th>
-						<td>25,000</td>
+						<td class="current">25,000</td>
 						<td>20,000</td>
 					</tr>
 					<!-- Subtotal below -->
 					<tr>
 						<th>Total current assets</th>
-						<td>70,000</td>
+						<td class="current">70,000</td>
 						<td>60,000</td>
 					</tr>
 				</tbody>
@@ -58,35 +59,35 @@
 				<thead>
 					<tr>
 						<td></td>
-						<th>This Year</th>
-						<th>Last Year</th>
+						<th class="current"><span class="sr-only year">This Year</span></th>
+						<th><span class="sr-only year">Last Year</span></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th>Plants and machinery</th>
-						<td>$ 20,000</td>
+						<td class="current">$ 20,000</td>
 						<td>$ 20,000</td>
 					</tr>
 					<tr>
 						<th>Less Decreciation</th>
-						<td>-12,000</td>
+						<td class="current">-12,000</td>
 						<td>-10,000</td>
 					</tr>
 					<tr>
 						<th>Land</th>
-						<td>8,000</td>
+						<td class="current">8,000</td>
 						<td>8,000</td>
 					</tr>
 					<tr>
 						<th>Intangible assets</th>
-						<td>2,000</td>
+						<td class="current">2,000</td>
 						<td>1,500</td>
 					</tr>
 					<!-- Grand Total -->
 					<tr>
 						<th>Total assets</th>
-						<td>88,000</td>
+						<td class="current">88,000</td>
 						<td>79,500</td>
 					</tr>
 				</tbody>
@@ -101,30 +102,30 @@
 				<thead>
 					<tr>
 						<td></td>
-						<th>This Year</th>
-						<th>Last Year</th>
+						<th class="current"><span class="sr-only year">This Year</span></th>
+						<th><span class="sr-only year">Last Year</span></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th>Accounts payable</th>
-						<td>$ 20,000</td>
+						<td class="current">$ 20,000</td>
 						<td>$ 15,000</td>
 					</tr>
 					<tr>
 						<th>Taxes payable</th>
-						<td>5,000</td>
+						<td class="current">5,000</td>
 						<td>4,500</td>
 					</tr>
 					<tr>
 						<th>Long-term bonds issued</th>
-						<td>15,000</td>
+						<td class="current">15,000</td>
 						<td>10,000</td>
 					</tr>
 					<!-- Subtotal below -->
 					<tr>
 						<th>Total liabilities</th>
-						<td>40,000</td>
+						<td class="current">40,000</td>
 						<td>29,500</td>
 					</tr>
 				</tbody>
@@ -136,31 +137,31 @@
 				<thead>
 					<tr>
 						<td></td>
-						<th>This Year</th>
-						<th>Last Year</th>
+						<th class="current"><span class="sr-only year">This Year</span></th>
+						<th><span class="sr-only year">Last Year</span></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th>Common stock</th>
-						<td>$ 40,000</td>
+						<td class="current">$ 40,000</td>
 						<td>$ 40,000</td>
 					</tr>
 					<tr>
 						<th>Retained earnings</th>
-						<td>8,000</td>
+						<td class="current">8,000</td>
 						<td>10,000</td>
 					</tr>
 					<!-- Subtotal below -->
 					<tr>
 						<th>Total shareholder's equity</th>
-						<td>48,000</td>
+						<td class="current">48,000</td>
 						<td>50,000</td>
 					</tr>
 					<!-- Grand Total below -->
 					<tr>
 						<th>Liabilities and shareholders' equity</th>
-						<td>$ 88,000</td>
+						<td class="current">$ 88,000</td>
 						<td>$ 79,500</td>
 					</tr>
 				</tbody>
