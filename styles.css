@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
 	box-sizing: border-box;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	max-width: 40rem;
+	margin: 0 auto;
+	font-family: "Roboto", sans-serif;
 }
 
 span[class~="sr-only"] {
@@ -15,33 +25,34 @@ span[class~="sr-only"] {
 	margin: -1px !important;
 }
 
-.position-one {
-	margin: 0;
-}
-
 #years {
 	display: flex;
-	justify-content: space-around;
-	position: sticky;
+	justify-content: flex-end;
 	z-index: 999;
-	top: 0;
 	background: #4caf50;
 	color: #000;
-	padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
 	margin: 0 -2px;
 }
 
-.year-group {
-	align-self: center;
+h2 {
+	font-size: large;
+	padding: 5px;
 }
 
 .year {
-	margin: 0 4rem;
-	font-weight: bold;
+	padding: 10px;
 	font-size: large;
 }
 
-.position-two {
-	justify-content: flex-start !important;
-	padding-left: 2% !important;
+table {
+	border-collapse: collapse;
+	width: 100%;
+	position: relative;
+	margin-top: 1rem;
+	text-align: left;
+}
+
+caption {
+	text-align: left;
+	font-weight: bold;
 }
