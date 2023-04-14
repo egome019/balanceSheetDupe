@@ -27,20 +27,28 @@ span[class~="sr-only"] {
 
 #years {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	z-index: 999;
 	background: #4caf50;
 	color: #000;
 	margin: 0 -2px;
 }
 
+.title {
+	padding-left: 1rem;
+}
+
 h2 {
 	font-size: large;
-	padding: 5px;
+}
+
+.year-group {
+	display: flex;
+	align-items: center;
 }
 
 .year {
-	padding: 10px;
+	margin: 0 1rem;
 	font-size: large;
 }
 
@@ -48,11 +56,24 @@ table {
 	border-collapse: collapse;
 	width: 100%;
 	position: relative;
-	margin-top: 1rem;
+	margin: 1rem 0;
 	text-align: left;
 }
 
-caption {
+.caption {
 	text-align: left;
-	font-weight: bold;
+	font-weight: 900;
+	text-shadow: 0 0 #000;
+}
+
+tr {
+	justify-items: center;
+}
+
+td {
+	text-align: right;
+}
+
+.line {
+	border-top: #000 1px solid;
 }
