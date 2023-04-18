@@ -66,8 +66,15 @@ table {
 	text-shadow: 0 0 #000;
 }
 
-tr {
-	justify-items: center;
+th {
+	padding: 0.5rem 0;
+}
+
+.subtotal {
+	text-align: left;
+	font-weight: 900;
+	text-shadow: 0 0 #000;
+	height: 3rem;
 }
 
 td {
@@ -76,4 +83,8 @@ td {
 
 .line {
 	border-top: #000 1px solid;
+}
+
+.grand-total {
+	height: 5rem;
 }
